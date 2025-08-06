@@ -4,7 +4,7 @@ beforeEach(() => {
 
 describe('visit dashboard', () => {
     it('Create new price', () => {
-    // Broader intercept patterns
+    // Intercept patterns
     cy.intercept('GET', '**/pricesmanagement/api/v1/bands*').as('getBands')
     cy.intercept('GET', '**/pricesmanagement/api/v1/groups*').as('getGroups')
 
