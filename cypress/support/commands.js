@@ -8,7 +8,6 @@ Cypress.Commands.add('baseurl', () => {
   })
   
 })
-
  Cypress.on("uncaught:exception", (err, runnable) => {
       return false;
     })
